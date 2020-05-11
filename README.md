@@ -38,7 +38,7 @@ RM Install
 
  
   ## Secrets Revealed
-  [ReadMe Creation Secrets REVEALED]()
+  [ReadMe Creation Secrets REVEALED](https://drive.google.com/file/d/1HVB-qy20lG3XUAkKT6S9EqFY53u2JuD0/view)
 
 
   ## Questions?
