@@ -13,7 +13,7 @@ const questions = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'username',
+        name: 'Gitusername',
         message: 'Please Enter Your Githhub USERNAME',
         validate: ghUsername => {
             if (ghUsername) {
@@ -126,28 +126,24 @@ const questions = () => {
     {
         type: "list",
         name: "RMlicense",
-        message: "Please Select From The Following List Of licenses",
+        message: "Please Select One License From The Following List",
         choices: ["GNUAGPLv3", "GNUGPLv3", "GNULGPLv3", "Apache2.0", "MIT", "BSD"],
     }
 
     ])
 }
 
+// Error Catching Function
 const funcCallback = (err) => {
     if (err) {
         console.error("An Error Has Occurred & The File Was Not Created!");
     }
 
-    console.log('Success! File Has Been Created');
+    console.log('Success! README File Has Been Created');
 }
 
-// function to initialize program
-function init() {
-    return questions();
-}
-
-// function call to initialize program
-init().then(ReadMeAnswers => {
+// Initialize program
+questions().then(ReadMeAnswers => {
     const newRM = createRM(ReadMeAnswers);
     fs.writeFile('README.md', newRM, funcCallback);
 });
