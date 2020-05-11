@@ -127,7 +127,7 @@ const questions = () => {
         type: "list",
         name: "RMlicense",
         message: "Please Select One License From The Following List",
-        choices: ["GNUAGPLv3", "GNUGPLv3", "GNULGPLv3", "Apache2.0", "MIT", "BSD"],
+        choices: ["GNUAGPLv3", "GNUGPLv3", "GNULGPLv3", "Apache2.0", "MIT", "Unlicense"],
     }
 
     ])
