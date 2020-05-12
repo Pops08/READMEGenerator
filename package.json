@@ -1,0 +1,23 @@
+{
+  "name": "rmgen",
+  "version": "1.0.0",
+  "description": "![Github licence](http://img.shields.io/badge/license-Apache2.0-red)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshuaH",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pops08/READMEGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pops08/READMEGenerator/issues"
+  },
+  "homepage": "https://github.com/Pops08/READMEGenerator#readme"
+}
